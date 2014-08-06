@@ -1,0 +1,33 @@
+## Introduction
+
+This is the practice markdown for the plant group.
+
+
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  error = FALSE,
+  echo = FALSE,
+  tidy = FALSE
+)
+
+# If we change echo=TRUE then it will print the code in the pdf.
+```
+
+
+```{r ChunkName}
+x <- rnorm(5)
+x
+```
+* We can cache the code so that each time we run the .Rmd file Rscript will only run code where changes have been made.
+
+We can have text and r code in this document.
+
+
+
+```{r PlotExample}
+plot(cars)
+```
+
+
